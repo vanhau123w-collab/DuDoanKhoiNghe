@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{768125DA-DE71-45B4-BD6E-0C0965FCBE50}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ChuanDoanBenh</RootNamespace>
+    <AssemblyName>ChuanDoanBenh</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormError.Designer.cs">
+      <DependentUpon>FormError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKhoiA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKhoiA.Designer.cs">
+      <DependentUpon>FormKhoiA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKhoiB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKhoiB.Designer.cs">
+      <DependentUpon>FormKhoiB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKhoiC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKhoiC.Designer.cs">
+      <DependentUpon>FormKhoiC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKhoiD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKhoiD.Designer.cs">
+      <DependentUpon>FormKhoiD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKhoiH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKhoiH.Designer.cs">
+      <DependentUpon>FormKhoiH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKhoiR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKhoiR.Designer.cs">
+      <DependentUpon>FormKhoiR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKhoiV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKhoiV.Designer.cs">
+      <DependentUpon>FormKhoiV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormError.resx">
+      <DependentUpon>FormError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKhoiA.resx">
+      <DependentUpon>FormKhoiA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKhoiB.resx">
+      <DependentUpon>FormKhoiB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKhoiC.resx">
+      <DependentUpon>FormKhoiC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKhoiD.resx">
+      <DependentUpon>FormKhoiD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKhoiH.resx">
+      <DependentUpon>FormKhoiH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKhoiR.resx">
+      <DependentUpon>FormKhoiR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKhoiV.resx">
+      <DependentUpon>FormKhoiV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HCMUT.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HUST.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HMU.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ytphcm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HLU.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HCMULAW.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FTU.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NEU.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UAD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HCMUFA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HAU.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UAH.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\truong-dai-hoc-my-thuat-viet-nam-6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HCMUT1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AJC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HUC.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
